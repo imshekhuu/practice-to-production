@@ -21,7 +21,7 @@ template2 = PromptTemplate(
     input_variables=['text']
 )
 
-promt1 = template1.invoke({'topic': 'ipl'})
+promt1 = template1.invoke({'topic': 'india'})
 
 result = model.invoke(promt1)
 print("\n", result.content)
